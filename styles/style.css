@@ -8,11 +8,8 @@
     background:  rgba(39, 38, 38, 0.452);
 }
 
-.contact-gif{
-    height: 30%;
-    width: auto;
+.contact-img{
     position: relative;
-    top: 10%;
     left: 50%;
     transform: translate(-50%, 0);
 }
@@ -59,8 +56,12 @@ ul li {
     padding: 5px;
 }
 .footer{
+    margin: 0;
+    padding: 0;
     position: relative;
-    top: 45%;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 .desc{
     margin: 15px;
@@ -120,6 +121,9 @@ ul li {
      .img-moti-2{
         display: block;
     }
+    .contact-img{
+        width: 20%;
+    }
  }
  @media screen and (max-width: 660px){
     .img-moti-2{
@@ -128,4 +132,7 @@ ul li {
     .img-moti-1{
        display: block;
    } 
+   .contact-img{
+       width: 70%;
+   }
 }
