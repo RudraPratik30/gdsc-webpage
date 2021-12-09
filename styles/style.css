@@ -1,0 +1,131 @@
+.about{
+    position: relative;
+}
+
+.span-deg{
+    height: fit-content;
+    border-radius: 5%;
+    background:  rgba(39, 38, 38, 0.452);
+}
+
+.contact-gif{
+    height: 30%;
+    width: auto;
+    position: relative;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.gif{
+    position: relative;
+    top: 20%;
+    margin: 10px;
+    padding-bottom: 100px;
+}
+.contact-sec{
+    position: relative;
+    top: 30%;
+    padding-bottom: 50px;
+}
+.btn-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-css{
+    height: 80px;
+    width: 100%;
+    margin: 5px;
+    border-radius: 10px;
+}
+.list{
+    position: relative;
+    top: 40%;
+    padding-bottom: 50px;
+}
+ul {
+    margin: 0;
+    padding-right: 0;
+    display: flex;
+}
+ul li {
+    list-style: none;
+    margin: 0 5px;
+    font-size: 30px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px;
+}
+.footer{
+    position: relative;
+    top: 45%;
+}
+.desc{
+    margin: 15px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    height: fit-content;
+    width: 80%;
+    border: 2px solid black;
+    background:  white;
+    border-radius: 15px;
+}
+
+.desc-text{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    width: 80%;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.about-img{
+    width: 100%;
+    border-radius: 30px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+}
+.text{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 50px;
+}
+
+.heart{
+    color: red;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: white;
+}
+ .faq{
+    position: relative;
+    padding-right: 20%;
+    padding-left: 20%;
+ }
+
+ @media screen and (min-width: 660px){
+     .img-moti-1{
+         display: none;
+     }
+     .img-moti-2{
+        display: block;
+    }
+ }
+ @media screen and (max-width: 660px){
+    .img-moti-2{
+        display: none;
+    }
+    .img-moti-1{
+       display: block;
+   } 
+}
